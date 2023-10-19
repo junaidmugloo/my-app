@@ -1,0 +1,95 @@
+
+.login-details{
+    width: 370px;
+    height: 635px;
+    /* background-color: orange; */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .1), 0 32px 32px rgba(0, 0, 0, .1);
+}
+.text{
+    padding-top: 20px;
+    text-align: center;
+}
+.text h2{
+    color: #4a4b4d;
+    font-weight: bold;
+}
+.text p{
+    font-weight: 400;
+    color: rgb(88, 88, 88);
+}
+.form-details{
+    width: 85%;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 8px;
+    padding-left: 30px;
+    background-color: rgb(223, 223, 223);
+}
+.detail1{
+    margin-top: 16px;
+}
+.form-details::placeholder{
+    color: darkgrey;
+}
+.login-button{
+    width: 85%;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(255, 94, 36);
+}
+.login-button:hover{
+    background-color:rgb(253, 107, 54) ;
+}
+.forgot-link{
+    margin-top: 15px;
+}
+.forgot-link .link{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.forgot-link .link:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.login-portion{
+    margin-top: 30px;
+}
+.facebook-login-button{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(88, 88, 255);
+}
+.facebook-login-button:hover{
+    background-color: rgb(98, 98, 255);
+}
+.fa-facebook-f,.fa-google-plus-g{
+    padding-right: 15px;
+}
+.google-login-button{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 23px;
+    background-color: rgb(221, 59, 0);
+}
+.google-login-button:hover{
+    background-color: rgb(220, 77, 25);
+}
+.para-with-signUp-link{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.para-with-signUp-link .sign-up{
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 94, 36);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para-with-signUp-link .sign-up:hover{
+    text-decoration: underline;
+}
